@@ -45,22 +45,59 @@
         </div><!--menuLateral-->
 
         <?php //Bloco de pagina ?>
-        <a href="produtos.php" ><img src="_imgs/topo.jpg" style="margin-top:-25px;" class="lbanner"></a><br/><br/>
         <div id="home">
           <div id="topH">
             <div class="colum empresa">
-              <h2>A empresa</h2>
+              <h2>Contato</h2>
             <div class="sublinhado gde mt"></div>
-              <p><img src="_imgs/logolateral.jpg" class="mr " alt="Pedraki" align="left" />
-                <span class="">A <b>PEDRA AKI</b> trabalha com muita dedicação para transformar o 
-                ambiente dos seus sonhos na mais perfeita realidade. <br />Nossa empresa é 
-                especializada em decorações com pedras em pisos e paredes em áreas internas 
-                e externas.</p>
-                <br/>
-              <p>Com alto nível de profissionalismo e competência, fazemos das decorações 
-              do seu ambiente um sucesso absoluto para que sejam partes integrantes da vida 
-              pessoal e profissional de cada um.</p>
-              <button class="btn1 botao_laranja right mtl"><a href="empresa.php">Leia mais</a></button>
+             <form action="contato.php" name="contato" id="contato" method="post"> 
+              <table width="404" border="0" cellpadding="3" cellspacing="5" class="contato"> 
+                <tr valign="top"> 
+                  <td width="85"  align="right" ><span  >Nome</span><span style="color:#ab4d76;">*</span>:</td> 
+                  <td width="278" > 
+                    <input class="formularios" type="text" name="nome"  id="nome" size="34" /> 
+                   </td> 
+                </tr> 
+
+                <tr> 
+                  <td align="right">
+                    <span>E-mail</span>
+                    <span style="color:#ab4d76;">*</span>:
+                  </td> 
+                  <td >
+                    <input class="formularios" type="text" name="email"  id="email" size="34" />
+                  </td> 
+                </tr> 
+
+                <tr> 
+                  <td align="right">
+                    <span>Telefone </span>:
+                  </td> 
+                  <td >
+                    <input class="formularios" type="text" name="telefone" id="telefone" size="34" />
+                  </td> 
+                </tr> 
+                
+                <tr> 
+                  <td align="right">
+                    <span>Mensagem</span>:
+                    <span >*</span>:
+                  </td> 
+                  <td> 
+                    <textarea class="formularios" name="mensagem" id="mensagem"  cols="26" rows="4"></textarea> 
+                  </td> 
+                </tr> 
+                
+                <tr> 
+                  <td ></td> 
+                  <td align="left" >
+                    <div align="center" style="margin-left:0px;"> 
+                      <input class="formularios" type="submit" name="enviar" style="border:1px solid #381515;   " value="Enviar" /> 
+                    </div>
+                  </td> 
+                </tr> 
+              </table> 
+            </form>
             </div>
 
             <div class="colum mt" >

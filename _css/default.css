@@ -10,7 +10,7 @@ dir, hr, menu, pre   { display: block; }
 
 
 *   {margin: 0;  padding: 0;  border: 0; }
-a   {color: #000;    text-decoration: none;}
+a   {color: #fff;    text-decoration: none;}
 h1  {font-size:22px; margin:0px;} 
 h2  {font-size:20px; margin:0px;}
 h3  {font-size:18px; margin:0px;}
@@ -27,7 +27,9 @@ address{ font-style:normal;}
 .table  {display: table;}
 .ml     {margin-left: 10px;}
 .mr     {margin-right: 10px;}
-.mt     {margin-top: 22px;}
+.mt     {margin-top: 10px;}
+.mtl     {margin-top: 20px;}
+
 .mb     {margin-bottom: 10px;}
 .mall   {margin: 10px;} 
 .bold   {font-weight: bold;} 

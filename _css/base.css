@@ -13,6 +13,11 @@ h2{
 
 }
 
+
+h2.min{
+  font-size:18px !important;
+}
+
 h3{
 
 }
@@ -143,7 +148,7 @@ textarea{
 }
 
 #menuLateral  .catalogo h2{
-  color:#de653a;
+  color:#000;
   text-transform: uppercase;
   font-size:24px;
 }
@@ -153,8 +158,7 @@ textarea{
   text-transform: uppercase;
   font-size:24px;
 }
-
-#menuLateral  .sublinhado{
+ .sublinhado{
   height:1px;
   width:175px;
   background:#de653a;
@@ -172,6 +176,7 @@ textarea{
 
 #menuLateral li a{
   color:#a6a296;
+  font-size:14px;
 }
 
 #menuLateral li a:hover{
@@ -210,4 +215,40 @@ textarea{
   width:960px;
   padding-top:5px;
 
+}
+
+
+.colum{
+  float:left;
+  display:inline;
+}
+
+.colum.empresa{
+  width: 620px;
+  margin-right:5px;
+}
+
+.colum  h2{
+  color:#000;
+  text-transform: uppercase;
+  font-size:24px;
+  font-weight: normal;
+}
+
+.sublinhado.gde{
+  width: 99.5%;
+}
+
+.botao_laranja{
+  background: #D84613;
+  color: white;
+  padding: 7px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+
+.list-noticias li{
+  margin:15px 0px 15px 0px;
+  list-style: none;
 }

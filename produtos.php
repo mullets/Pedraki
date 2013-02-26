@@ -3,7 +3,7 @@
 
   include('_includes/head.php');
  ?>
-  <body>
+<body onload="setupZoom()">
     <div id="container">
 
       <?php include('_includes/topo.php'); ?>
@@ -45,22 +45,31 @@
         </div><!--menuLateral-->
 
         <?php //Bloco de pagina ?>
-        <a href="produtos.php" ><img src="_imgs/topo.jpg" style="margin-top:-25px;" class="lbanner"></a><br/><br/>
         <div id="home">
           <div id="topH">
             <div class="colum empresa">
-              <h2>A empresa</h2>
+              <h2>Produtos</h2>
             <div class="sublinhado gde mt"></div>
-              <p><img src="_imgs/logolateral.jpg" class="mr " alt="Pedraki" align="left" />
-                <span class="">A <b>PEDRA AKI</b> trabalha com muita dedicação para transformar o 
-                ambiente dos seus sonhos na mais perfeita realidade. <br />Nossa empresa é 
-                especializada em decorações com pedras em pisos e paredes em áreas internas 
-                e externas.</p>
-                <br/>
-              <p>Com alto nível de profissionalismo e competência, fazemos das decorações 
-              do seu ambiente um sucesso absoluto para que sejam partes integrantes da vida 
-              pessoal e profissional de cada um.</p>
-              <button class="btn1 botao_laranja right mtl"><a href="empresa.php">Leia mais</a></button>
+              <p>Alguns de nossos produtos</p>
+                <a href="_imgs/produtos/01.jpg">
+                  <img src="_imgs/produtos/01.jpg" width="260" height="200" style="float:left; padding:10px;" />
+                </a>
+                <a href="_imgs/produtos/02.jpg">
+                  <img src="_imgs/produtos/02.jpg" width="260" height="200" style="float:left; padding:10px;" />
+                </a>                
+                <a href="_imgs/produtos/03.jpg">
+                  <img src="_imgs/produtos/03.jpg" width="260" height="200" style="float:left; padding:10px;" />
+                </a>                
+                <a href="_imgs/produtos/04.jpg">
+                  <img src="_imgs/produtos/04.jpg" width="260" height="200" style="float:left; padding:10px;" />
+                </a>
+                <a href="_imgs/produtos/05.jpg">
+                  <img src="_imgs/produtos/05.jpg" width="260" height="200" style="float:left; padding:10px;" />
+                </a>
+                <a href="_imgs/produtos/06.jpg">
+                  <img src="_imgs/produtos/06.jpg" width="260" height="200" style="float:left; padding:10px;" />
+                </a>
+
             </div>
 
             <div class="colum mt" >
@@ -76,21 +85,12 @@
         </div>
         <br class="clear">
        
-        <div id="home" style="margin-left:195px;">
-          <div id="topH">
-            <div class="colum empresa">
-              <h2>Notícias</h2>
-            <div class="sublinhado gde mt"></div>
-              <ul class="list-noticias">
-                <li>28.09.2012 - Resgatadas no ano 2000, as pedras para decoração voltam com tudo para modernizar o seu ambiente.</li>
-                <li>28.09.2012 - Ao decorar a casa com pedras naturais e possível contar com um material sofisticado, resistente e que imprime personalidade ao ambiente.</li>
-                <li>28.09.2012 - A utilização da decoração residencial e comercial com pedras vem sendo utilizada a bastante tempo, porem isso ira variar bastante da criatividade e dos modelos de pedras visto que você poderá criar um modelo único com sua criatividade.</li>
-              </ul>
-            </div>
-        </div>
+        
     </div><!--content-->
   </div><!--container-->
-
+            <script type="text/javascript" src="http://www.ferrobattuto.com.br/_js/jquery.last.js"></script>
+            <script type="text/javascript" src="http://www.ferrobattuto.com.br/_js/jquery.fancy.js"></script>
+            <script type="text/javascript" src="http://www.ferrobattuto.com.br/_js/jquery.fancy.html.js"></script>
   <?php include('_includes/footer.php'); ?>
 
   <!-- JS -->
